@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+}
+
+section header {
+    margin-bottom: 75px;
+}
+
+hr {
+    width: 70px;
+    border: 1px solid rgb(0, 194, 29);
+    border-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.ogr{
+    margin-left: 25%;
+    text-align: center;
+    width: 750px;
+    overflow: visible;
+}
+
+.about-img{
+    border-radius: 50%;
+}
+
+.main-header {
+    height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('img/zielone.jpg');
+}
+.main-header .main-header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(7, 218, 0);
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(5, 163, 0);
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.main-menu {
+    border: 1px solid black;
+    background-color: rgb(7, 218, 0);
+}
+.main-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.menu-item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+}
+
+.menu-item :hover{
+    color: white;
+    transition: 1s;
+}
+
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex-basis: 33%;
+    height: 200px;
+    position: relative;
+}
+
+.portfolio-wrapper .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-wrapper .portfolio-item h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: rgb(7, 218, 0);
+    font-weight: 300;
+    font-size: 3em;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.portfolio-wrapper .portfolio-item h3:hover {
+    opacity: 1;
+}
+
+#contact form {
+    width: 750px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input[type='text'], input[type='email'] {
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.social-links .social-link {
+    font-size: 3em;
+    color: rgb(4, 135, 0);
+    transition: all .3s;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-footer {
+    background-color: rgb(7, 218, 0);
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
